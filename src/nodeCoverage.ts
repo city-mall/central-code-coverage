@@ -9,7 +9,7 @@ const NODE_REPO_MAP: {
 } = {
   "node-coverage": {
     url: "https://api.github.com/repos/city-mall/central-code-coverage/git/trees/node-coverage-reports:coverage?recursive=1",
-    repoLink: "https://github.com/sushant8421/central-code-coverage",
+    repoLink: "https://github.com/city-mall/central-code-coverage",
   },
 };
 
