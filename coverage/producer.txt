@@ -1,0 +1,25 @@
+Name                             Stmts   Miss  Cover   Missing
+--------------------------------------------------------------
+__init__.py                          0      0   100%
+api/__init__.py                      0      0   100%
+api/routes/__init__.py               0      0   100%
+api/routes/routes.py                80     45    44%   16, 31-35, 41-45, 50-54, 59-63, 67-77, 82-88, 93-98, 103-104, 119-122, 128
+api/schemas/__init__.py              0      0   100%
+api/schemas/property_schema.py      12      6    50%   2, 13, 17, 25, 29, 33
+app.py                              43     43     0%   1-82
+ingress-kafka.py                    41     41     0%   2-75
+jobs/__init__.py                     0      0   100%
+jobs/base.py                        33     33     0%   1-50
+jobs/city.py                         6      6     0%   1-8
+jobs/contest.py                      6      6     0%   1-8
+jobs/leaders.py                      6      6     0%   1-8
+jobs/orders.py                       6      6     0%   1-8
+jobs/retention.py                    6      6     0%   1-8
+jobs/store.py                        6      6     0%   1-8
+models/models.py                    57      4    93%   23-24, 77-78
+producer_kafka.py                  111     88    21%   21-104, 111-115, 124-133, 137-159, 164-183, 187-194
+scheduler.py                        15     15     0%   1-21
+service.py                         148    122    18%   25-42, 46-58, 63-78, 82-91, 95-103, 109-119, 123-141, 145-163, 174-223, 232-245, 255-270
+test_apis.py                       155      0   100%
+--------------------------------------------------------------
+TOTAL                              731    433    41%

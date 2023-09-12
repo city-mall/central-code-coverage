@@ -1,0 +1,20 @@
+Name                                                                              Stmts   Miss  Cover   Missing
+---------------------------------------------------------------------------------------------------------------
+/home/runner/work/cohortx-v2/cohortx-v2/db.py                                       217    113    48%   35-40, 69, 89-91, 98-103, 111-113, 120-121, 129-131, 139, 155-159, 170-174, 183-185, 189, 196-203, 207-213, 217-232, 251-255, 258-274, 281-294, 354-355, 358, 369, 378-390, 397-398, 404-405, 408-409, 412-413, 416, 422-433, 437, 449, 452-458, 465-476, 483-491, 497-511, 525, 540, 555
+/home/runner/work/cohortx-v2/cohortx-v2/producer/__init__.py                          0      0   100%
+/home/runner/work/cohortx-v2/cohortx-v2/producer/api/__init__.py                      0      0   100%
+/home/runner/work/cohortx-v2/cohortx-v2/producer/api/schemas/__init__.py              0      0   100%
+/home/runner/work/cohortx-v2/cohortx-v2/producer/api/schemas/property_schema.py      12      6    50%   2, 13, 17, 25, 29, 33
+/home/runner/work/cohortx-v2/cohortx-v2/producer/models/models.py                    57      4    93%   23-24, 77-78
+/home/runner/work/cohortx-v2/cohortx-v2/producer/producer_kafka.py                  111     88    21%   21-104, 111-115, 124-133, 137-159, 164-183, 187-194
+/home/runner/work/cohortx-v2/cohortx-v2/utils/__init__.py                             0      0   100%
+/home/runner/work/cohortx-v2/cohortx-v2/utils/worker_utils.py                       404    117    71%   24-25, 45-46, 61, 85-92, 96, 101-113, 152-161, 172, 179-181, 220-222, 255-283, 319-320, 326-331, 359-360, 368-370, 398-399, 415-423, 481-487, 494-497, 529-555, 560-561, 620-621, 641, 653-654, 668-669, 677-688, 705, 711-721, 725-726
+common.py                                                                            72     19    74%   58-103, 112-114, 122-123
+common_bulk_add_util.py                                                              34      1    97%   28
+common_bulk_delete_util.py                                                           21      0   100%
+common_bulk_update_util.py                                                           55      5    91%   24-29
+common_single_add_util.py                                                            35      3    91%   31, 42, 66
+models/models.py                                                                      8      0   100%
+test.py                                                                             714     65    91%   30, 328-335, 437, 866-931, 1003-1020
+---------------------------------------------------------------------------------------------------------------
+TOTAL                                                                              1740    421    76%
