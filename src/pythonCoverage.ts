@@ -13,7 +13,7 @@ type RepoMap = {
 
 const PYTHON_REPO_MAP: RepoMap = {
   "python-coverage": {
-    url: "https://api.github.com/repos/sushant8421/central-code-coverage/git/trees/python-coverage-reports:coverage?recursive=1",
+    url: "https://api.github.com/repos/city-mall/central-code-coverage/git/trees/python-coverage-reports:coverage?recursive=1",
     repoLink: "https://github.com/sushant8421/central-code-coverage",
   },
 };
